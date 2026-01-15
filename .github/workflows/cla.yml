@@ -7,6 +7,7 @@ on:
 
 jobs:
   CLAssistant:
+    timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
       - name: "CLA Assistant"
